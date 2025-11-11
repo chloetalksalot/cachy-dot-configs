@@ -1,0 +1,177 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/fastfetch.gif",
+        "type": "kitty-icat",
+        "height": 24,
+        "width": 64,
+        "padding": {
+            "top": 2,
+           "left": 2
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────── hardware ───────────────────────────────󰴈",
+            "outputColor": "#f5c2e7"
+        },
+        {
+            "type": "title",
+            "key": "󰨇 desktop",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ┌ cpu",
+            "showPeCoreCount": true,
+            "format": "{1}",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰢮 gpu",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├ ram",
+            "keyColor": "green"
+        },
+        {
+            "type": "bluetooth",
+            "key": "│ ├󰥰 headphones",
+            "keyColor": "green"
+        },
+        {
+            "type": "keyboard",
+            "key": "│ ├ keyboard",
+            "ignores": ["Razer"],
+            "keyColor": "green"
+        },
+        {
+            "type": "display",
+            "key": "│ ├󰍹 monitor",
+            "keyColor": "green",
+            "format": "{name} {inch}\" {width}x{height}@{refresh-rate}" 
+        },
+        {
+	        "type": "disk",
+	        "hideFolders": "/home/chloe/games:/home/chloe/storage:/boot",
+	        "key": "│ ├ root nvme",
+	        "keyColor": "green"
+	    },
+	    {
+	        "type": "disk",
+	        "hideFolders": "/:/home/chloe/storage:/boot",
+	        "key": "│ ├ game sata ssd",
+	        "keyColor": "green"
+	    },
+	    {
+	        "type": "disk",
+	        "hideFolders": "/home/chloe/games:/:/boot",
+	        "key": "┊ └ storage hdd",
+	        "keyColor": "green"
+	    },
+        {
+            "type": "custom",
+            "format": "└────────────────────────────────────────────────────────────────────────󰴈",
+            "outputColor": "#f5c2e7"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────── software ───────────────────────────────󰴈",
+            "outputColor": "#f5c2e7"
+        },
+        {
+            "type": "os",
+            "key": " distro",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├ kernel",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "│ ├󰮯 packages",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "shell",
+            "key": "│ ├ shell",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "terminal",
+            "key": "│ ├ terminal",
+            "keyColor": "yellow"
+        },        
+        {
+            "type": "terminalFont",
+            "key": "│ ├ font",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "command",
+            "key": "│ ├ age",
+            "keyColor": "yellow",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "│ └ uptime",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "de",
+            "key": " desktop env",
+            "keyColor": "blue"
+        },
+        {
+            "type": "lm",
+            "key": "│ ┌󰷛 login manager",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
+            "key": "│ ├ composer",
+            "keyColor": "blue"
+        },        
+        {
+            "type": "bootmgr",
+            "key": "│ ├ boot loader",
+            "keyColor": "blue"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰍛 gpu driver",
+            "format": "{3}",
+            "keyColor": "blue"
+        },
+        {
+            "type": "vulkan",
+            "key": "│ ├󰲽 vulkan",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "key": "┊ └󰉼 color scheme",
+            "format": "catppuccin mocha with pink accents",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "└────────────────────────────────────────────────────────────────────────󰴈",
+            "outputColor": "#f5c2e7"
+        },
+        {
+            "type": "custom",
+            "format": "                           \u001b[38m󰴈  \u001b[31m󰧱  \u001b[32m󰴈  \u001b[33m󰉊  \u001b[34m󰧱  \u001b[35m󰴈  \u001b[36m󰾢  \u001b[37m󰧱 "
+        },
+        "break",
+    ]
+}
