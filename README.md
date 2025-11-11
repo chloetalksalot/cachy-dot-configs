@@ -2,13 +2,15 @@
 > don't just copy these if you don't know what you're doing, or do i'm not your mom 🤷🏼‍♀️
 
 #### showing off ->
-![screenshot of ultrawide demoing apps](TODOLINK "screenshot of ultrawide demoing apps")
-![video of ultrawide demoing animations/functionality](TODOLINK "video of ultrawide demoing animations")
+![screenshot of ultrawide demoing apps](https://github.com/chloetalksalot/cachy-dot-configs/blob/main/showing-off/1.png "screenshot of ultrawide demoing apps")
+![video of ultrawide demoing animations/functionality](https://github.com/chloetalksalot/cachy-dot-configs/blob/main/showing-off/2.gif "video of ultrawide demoing animations")
 
 
 #### notes ->
 
 the fish prompt is mostly still the default from cachyos, then setup with tide's interactive install. config.fish is just to replace fastfetch with a simple echo on fish startup.
+
+also if anyone knows how to make a .mp4 into a better gif for embeding dm me 😅
 
 #### projects used ->
 ---
