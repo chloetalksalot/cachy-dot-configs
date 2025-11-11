@@ -3,7 +3,8 @@
 
 #### showing off ->
 ![screenshot of ultrawide demoing apps](https://github.com/chloetalksalot/cachy-dot-configs/blob/main/showing-off/1.png "screenshot of ultrawide demoing apps")
-![video of ultrawide demoing animations/functionality](https://github.com/chloetalksalot/cachy-dot-configs/blob/main/showing-off/2.gif "video of ultrawide demoing animations")
+![video of demoing animations/functionality](https://github.com/chloetalksalot/cachy-dot-configs/blob/main/showing-off/2.gif "video of demoing animations")
+![video of demoing animations/functionality](https://github.com/chloetalksalot/cachy-dot-configs/blob/main/showing-off/3.gif "video of demoing animations")
 
 
 #### notes ->
